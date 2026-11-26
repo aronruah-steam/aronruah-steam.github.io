@@ -155,5 +155,6 @@ window.RUAH = {
 
     { name: "Arduino 官方網站",             url: "https://www.arduino.cc/",         category: "工具與軟體", desc: "IDE 下載與官方文件" },
     { name: "Tinkercad",                    url: "https://www.tinkercad.com/",      category: "工具與軟體", desc: "線上 3D 建模與電路模擬" }
+    { name: "Arduino入門",                 url: "https://learn-arduino-red.vercel.app/zh-tw/",      category: "教學網站", desc: "線上Arduino互動教學" }
   ]
 };
