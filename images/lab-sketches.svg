@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none" stroke="#d8e8f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 錐形瓶（左下） -->
+  <g transform="translate(70 600)">
+    <path d="M60 0h50M68 0v70L10 200a14 14 0 0 0 13 20h124a14 14 0 0 0 13-20L102 70V0"/>
+    <path d="M30 160h110" stroke-dasharray="6 6"/>
+    <circle cx="70" cy="185" r="6"/><circle cx="96" cy="196" r="4"/><circle cx="84" cy="140" r="3"/>
+    <path d="M115 60h18M115 90h12M115 120h18" stroke-width="1.5"/>
+  </g>
+
+  <!-- 試管架（左上） -->
+  <g transform="translate(60 120)">
+    <path d="M0 110h170M10 110v30M160 110v30M0 70h170"/>
+    <path d="M30 20v100a12 12 0 0 0 24 0V20M80 0v120a12 12 0 0 0 24 0V0M130 30v90a12 12 0 0 0 24 0V30"/>
+    <path d="M30 80h24M80 60h24M130 95h24" stroke-dasharray="4 4"/>
+  </g>
+
+  <!-- 原子模型（上中） -->
+  <g transform="translate(720 70)">
+    <circle cx="0" cy="0" r="7"/>
+    <ellipse cx="0" cy="0" rx="70" ry="24"/>
+    <ellipse cx="0" cy="0" rx="70" ry="24" transform="rotate(60)"/>
+    <ellipse cx="0" cy="0" rx="70" ry="24" transform="rotate(120)"/>
+  </g>
+
+  <!-- 顯微鏡（右上） -->
+  <g transform="translate(1380 60)">
+    <path d="M10 230h150M40 230v-20h90v20"/>
+    <path d="M110 210a70 70 0 0 0-30-120"/>
+    <path d="M40 10l44 76-24 14-44-76z"/>
+    <path d="M64 100l12 22M50 150h70"/>
+    <circle cx="58" cy="44" r="4"/>
+  </g>
+
+  <!-- DNA 雙股螺旋（右側） -->
+  <g transform="translate(1470 380)">
+    <path d="M0 0c60 40 60 80 0 120s-60 80 0 120 60 80 0 120"/>
+    <path d="M60 0c-60 40-60 80 0 120s60 80 0 120-60 80 0 120"/>
+    <path d="M10 20h40M8 100h44M10 140h40M8 220h44M10 260h40M8 340h44" stroke-width="1.5"/>
+  </g>
+
+  <!-- 實驗數據圖（下中） -->
+  <g transform="translate(560 700)">
+    <path d="M0 0v150h260"/>
+    <path d="M0 40h-6M0 80h-6M0 120h-6M60 150v6M120 150v6M180 150v6M240 150v6" stroke-width="1.5"/>
+    <path d="M10 140L250 20" stroke-dasharray="8 6"/>
+    <circle cx="30" cy="124" r="4"/><circle cx="70" cy="112" r="4"/><circle cx="105" cy="86" r="4"/>
+    <circle cx="140" cy="80" r="4"/><circle cx="180" cy="52" r="4"/><circle cx="220" cy="40" r="4"/>
+  </g>
+
+  <!-- 電路走線（右下） -->
+  <g transform="translate(1100 700)">
+    <rect x="80" y="40" width="90" height="60" rx="4"/>
+    <path d="M95 40V20M115 40V20M135 40V20M155 40V20M95 100v20M115 100v20M135 100v20M155 100v20"/>
+    <path d="M0 70h80M170 70h60v80h-90M0 70v80h40"/>
+    <path d="M40 150h20l8-12 12 24 12-24 12 24 8-12h20" />
+    <circle cx="0" cy="70" r="5"/><circle cx="230" cy="70" r="5"/>
+  </g>
+
+  <!-- 手寫公式 -->
+  <g fill="#d8e8f6" stroke="none" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="30">
+    <text x="980" y="190">F = ma</text>
+    <text x="300" y="840">y = ax + b</text>
+    <text x="1240" y="600">H₂O</text>
+    <text x="900" y="880" font-size="24">Δt = 0.5 s</text>
+  </g>
+</svg>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RUAH科學探究教學</title>
+  <meta name="description" content="RUAH科學探究教學：Arduino、3D列印、專題研究、研究工具、小論文檢查、探究與實作、科學營隊等教學系統入口。">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#systems">跳到教學系統</a>
+
+  <!-- ========== 導覽列 ========== -->
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#top" aria-label="回到頁首">
+      <img src="images/favicon.svg" alt="" width="28" height="28">
+      <span>RUAH</span>
+    </a>
+    <nav class="topnav" aria-label="主選單">
+      <a href="#systems">教學系統</a>
+      <a href="#news">消息公告</a>
+      <a href="#links">相關連結</a>
+    </nav>
+  </header>
+
+  <!-- ========== 首頁大標 ========== -->
+  <section class="hero" id="top">
+    <div class="hero-photo" id="heroPhoto" aria-hidden="true"></div>
+    <div class="hero-grid" aria-hidden="true"></div>
+    <img class="hero-sketches" src="images/lab-sketches.svg" alt="" aria-hidden="true">
+
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1 class="hero-title">
+          <span class="title-latin" data-text="RUAH">RUAH</span>
+          <span class="title-cjk">科學探究教學</span>
+        </h1>
+        <p class="hero-tagline" id="heroTagline">從一個好問題開始，動手做、仔細看、說清楚。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#systems">進入教學系統</a>
+          <a class="btn btn-ghost" href="#news">查看最新消息</a>
+        </div>
+      </div>
+
+      <!-- 探究循環圖 -->
+      <figure class="cycle" aria-label="科學探究循環：提出問題、形成假設、設計實驗、分析資料、論證分享">
+        <svg viewBox="0 0 520 520" role="img" aria-hidden="true">
+          <circle class="cy-ring" cx="260" cy="260" r="180"/>
+          <g class="cy-arrows">
+            <path d="M-6-7L4 0l-10 7" transform="translate(365.8 114.4) rotate(36)"/>
+            <path d="M-6-7L4 0l-10 7" transform="translate(431.2 315.6) rotate(108)"/>
+            <path d="M-6-7L4 0l-10 7" transform="translate(260 440) rotate(180)"/>
+            <path d="M-6-7L4 0l-10 7" transform="translate(88.8 315.6) rotate(252)"/>
+            <path d="M-6-7L4 0l-10 7" transform="translate(154.2 114.4) rotate(324)"/>
+          </g>
+          <g class="cy-orbit"><circle cx="260" cy="80" r="6"/></g>
+
+          <!-- 中央：燒瓶 -->
+          <circle class="cy-core" cx="260" cy="260" r="78"/>
+          <g transform="translate(222 200)">
+            <path class="cy-flask" d="M26 4h24M30 4v34L6 92a8 8 0 0 0 7.3 11.5h49.4A8 8 0 0 0 70 92L46 38V4"/>
+            <path class="cy-liquid" d="M15.5 72h45L67 93a6 6 0 0 1-5.5 8.5H14.5A6 6 0 0 1 9 93z"/>
+            <circle class="cy-bubble" cx="32" cy="60" r="3.5"/>
+            <circle class="cy-bubble" cx="43" cy="48" r="2.4"/>
+          </g>
+
+          <!-- 五個步驟（依序循環） -->
+          <g class="cy-node" transform="translate(260 80)"><circle r="46"/><text class="n" y="-10">1</text><text y="16">提出問題</text></g>
+          <g class="cy-node" transform="translate(431.2 204.4)"><circle r="46"/><text class="n" y="-10">2</text><text y="16">形成假設</text></g>
+          <g class="cy-node" transform="translate(365.8 405.6)"><circle r="46"/><text class="n" y="-10">3</text><text y="16">設計實驗</text></g>
+          <g class="cy-node" transform="translate(154.2 405.6)"><circle r="46"/><text class="n" y="-10">4</text><text y="16">分析資料</text></g>
+          <g class="cy-node" transform="translate(88.8 204.4)"><circle r="46"/><text class="n" y="-10">5</text><text y="16">論證分享</text></g>
+        </svg>
+      </figure>
+    </div>
+  </section>
+
+  <main>
+    <!-- ========== 欄位一：教學系統 ========== -->
+    <section class="section section-systems" id="systems" aria-labelledby="systems-title">
+      <div class="section-head">
+        <h2 id="systems-title">教學系統</h2>
+        <p class="section-note">點選卡片進入各系統。</p>
+      </div>
+      <div class="filters" id="systemFilters" role="group" aria-label="依分類篩選教學系統"></div>
+      <div class="system-grid" id="systemGrid"></div>
+    </section>
+
+    <!-- ========== 欄位二：消息公告 ========== -->
+    <section class="section section-news" id="news" aria-labelledby="news-title">
+      <div class="section-head">
+        <h2 id="news-title">消息公告</h2>
+        <p class="section-note">置頂消息排在最前，其餘依日期由新到舊。</p>
+      </div>
+      <div class="filters" id="newsFilters" role="group" aria-label="依分類篩選消息"></div>
+      <ol class="news-list" id="newsList"></ol>
+      <button class="btn btn-outline more-btn" id="newsMore" type="button" hidden>顯示更多消息</button>
+    </section>
+
+    <!-- ========== 欄位三：相關資訊連結 ========== -->
+    <section class="section section-links" id="links" aria-labelledby="links-title">
+      <div class="section-head">
+        <h2 id="links-title">相關資訊連結</h2>
+        <p class="section-note">外部網站會在新分頁開啟。</p>
+      </div>
+      <div class="link-groups" id="linkGroups"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-title">RUAH科學探究教學</p>
+    <p id="footerText"></p>
+  </footer>
+
+  <!-- 網站內容都在 data.js，要改內容請編輯這個檔案 -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
