@@ -57,7 +57,7 @@ window.RUAH = {
     {
       name: "專題研究學習系統",
       desc: "訂題目、寫計畫、做研究到成果發表的完整歷程。",
-      url: "",
+      url: "https://script.google.com/macros/s/AKfycbwhem74Aj_m4IOiftuwQwIwwfIRj0CoRTn4ZFFvWbc2FX7sE5OI7aVP5xobiWn4uk3t/exec",
       category: "研究方法",
       icon: "research"
     },
