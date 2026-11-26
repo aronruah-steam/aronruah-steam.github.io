@@ -50,7 +50,7 @@ window.RUAH = {
     {
       name: "3D列印教學系統",
       desc: "建模、切片到列印，把實驗需要的器材自己做出來。",
-      url: "https://YOUR-ACCOUNT.github.io/3d-printing/",
+      url: "https://aronruah-steam.github.io/3d-printing/",
       category: "數位製作",
       icon: "printer"
     },
