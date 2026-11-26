@@ -43,7 +43,7 @@ window.RUAH = {
     {
       name: "Arduino 教學系統",
       desc: "從點亮 LED 到感測器與資料記錄，一步步完成自己的量測裝置。",
-      url: "https://YOUR-ACCOUNT.github.io/arduino-course/",
+      url: "https://aronruah-steam.github.io/arduino-course/",
       category: "數位製作",
       icon: "arduino"
     },
